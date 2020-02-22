@@ -12,46 +12,11 @@ const pos = 30;
   */
 let buttons = [
 	{
-		title: "I'm just a regular webpage",
-		url: "https://obsproject.com/startup/v23-0-0"
-	},
-	{
-		title: "800x600",
-		url: "http://howbigismybrowser.com/",
+		title: "1920x1080",
+		url: "https://i.imgur.com/I5UX8IM.png",
 		params: {
-			"layer-name": "Resolution Info",
-			"layer-width": 800,
-			"layer-height": 600
-		}
-	},
-	{
-		title: "I'm a fancy third party overlay",
-		url: "./overlay_example.html",
-		params: {
-			"layer-name": "Fancy Lower Third"
-		},
-		style: "btn-danger",
-		tooltip: "Canvas Size<br>Drag me into OBS!"
-	},
-	{
-		title: "1280x720",
-		url: "http://howbigismybrowser.com/",
-		params: {
-			"layer-name": "Resolution Info",
-			randomStuff: "Who knows",
-			andMore: true,
-			andEvenMore: 0,
-			"layer-width": 1280,
-			"layer-height": 720
-		}
-	},
-	{},
-	{
-		title: "1280x1080",
-		url: "http://howbigismybrowser.com/",
-		params: {
-			"layer-name": "Resolution Info",
-			"layer-width": 1280,
+			"layer-name": "Streamelements Overlay Generator",
+			"layer-width": 1920,
 			"layer-height": 1080
 		}
 	}
